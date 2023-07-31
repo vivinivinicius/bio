@@ -1,0 +1,150 @@
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Cor de fundo padrão */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+/* Formulário de configuração */
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Elemento da Foto de Perfil */
+.photo-upload {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-upload img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Links de navegação */
+nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para a seção de Foto de Fundo */
+form:last-of-type {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+h2:nth-of-type(3) {
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Ícones específicos para cada rede social */
+a[href*="instagram"] {
+    background-color: #e4405f;
+}
+
+a[href*="discord"] {
+    background-color: #7289da;
+}
+
+a[href*="twitter"] {
+    background-color: #1da1f2;
+}
+
+a[href*="last.fm"] {
+    background-color: #ff4500;
+}
+
+a[href*="steam"] {
+    background-color: #171a21;
+}
+
+a[href*="leagueoflegends"] {
+    background-color: #6441a5;
+}
+
+/* Estilos para o fundo do perfil personalizado */
+.profile-background {
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
